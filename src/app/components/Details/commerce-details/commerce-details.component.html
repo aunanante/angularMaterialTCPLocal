@@ -1,0 +1,52 @@
+<mat-dialog-content>
+    <mat-toolbar color="accent" style="background-color:darkblue;">
+        Commerce Details
+    </mat-toolbar>
+    <div class="title-group">
+        <!-- <h1 class="mat-h1">Commerce Details</h1> -->
+        <mat-divider fxFlex="1 0"></mat-divider>
+    </div>
+    
+    <mat-grid-list cols="2" rowHeight="2:1">
+        <mat-grid-tile>
+            <mat-grid-tile-header>id</mat-grid-tile-header>
+            <div class="text-inside-grid">
+                {{id}}
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-grid-tile-header>commerce Name</mat-grid-tile-header>
+            <div class="text-inside-grid">
+                {{commerceName}}    
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile >
+            <mat-grid-tile-header>proprietaire Name</mat-grid-tile-header>
+            <div class="text-inside-grid">
+                {{proprietaireName}}
+            </div> 
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-grid-tile-header>adresse</mat-grid-tile-header>
+            <div class="text-inside-grid">
+                {{adresse}}
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-grid-tile-header>telephone</mat-grid-tile-header>
+            <div class="text-inside-grid">
+                {{telephone}}
+            </div>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-grid-tile-header>email</mat-grid-tile-header>
+            <div class="text-inside-grid">
+                {{email}}
+            </div>     
+        </mat-grid-tile>
+    </mat-grid-list>
+
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+    <button mat-raised-button color="primary" class="push-right" (click)="close()">Close</button>
+</mat-dialog-actions>

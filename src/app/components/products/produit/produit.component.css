@@ -1,0 +1,30 @@
+/* .mat-row:hover {
+    background-color: skyblue;
+  } */
+  .couleur{
+    background-color:powderblue;
+  }
+  
+  .table-row:focus {
+    background: tomato;
+    outline: none;
+  }
+  .table-row:focus mat-cell {
+    color: rgb(255, 255, 255); 
+  }
+  
+  .product-listing-image {
+    max-width: 250px;
+    object-fit: cover;
+  /* width: 50px;
+  height: 100px; */
+  }
+  
+  .mat-spinner{
+    margin: 10% auto;
+  }
+  /* mat-card {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+  } */
+  
